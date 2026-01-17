@@ -1,12 +1,12 @@
 {
-  "name": "@coffecuptech/docusaurus-plugin-structured-data",
+  "name": "@coffeecup_tech/docusaurus-plugin-structured-data",
   "version": "1.0.0",
   "description": "Docusaurus plugin to generate JSON-LD structured data (schema.org) for SEO",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
   "license": "MIT",
   "author": {
-    "name": "coffeecup.tech",
+    "name": "CoffeeCup.tech",
     "email": "contact@coffeecup.tech",
     "url": "https://coffeecup.tech"
   },

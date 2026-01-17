@@ -17,13 +17,13 @@ A Docusaurus plugin that automatically generates JSON-LD structured data (schema
 ## Installation
 
 ```bash
-npm install @coffeecup/docusaurus-plugin-generate-structured-data
+npm install @coffeecup_tech/docusaurus-plugin-structured-data
 ```
 
 or with yarn:
 
 ```bash
-yarn add @coffeecup/docusaurus-plugin-generate-structured-data
+yarn add @coffeecup_tech/docusaurus-plugin-structured-data
 ```
 
 ## Configuration
@@ -35,7 +35,7 @@ module.exports = {
   // ... other config
   plugins: [
     [
-      '@coffeecup/docusaurus-plugin-generate-structured-data',
+      '@coffeecup_tech/docusaurus-plugin-structured-data',
       {
         // Optional: Enable verbose logging
         verbose: false,

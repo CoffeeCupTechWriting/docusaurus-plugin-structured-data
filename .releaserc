@@ -102,7 +102,7 @@
     [
       "@semantic-release/github",
       {
-        "successComment": "✅ This release has been published to NPM!\n\n📦 Package: [@coffecuptech/docusaurus-plugin-structured-data](https://www.npmjs.com/package/@coffecuptech/docusaurus-plugin-structured-data)\n🏷️ Version: ${nextRelease.version}\n\n[View on NPM](https://www.npmjs.com/package/@coffecuptech/docusaurus-plugin-structured-data/v/${nextRelease.version})",
+        "successComment": "✅ This release has been published to NPM!\n\n📦 Package: [@coffeecup_tech/docusaurus-plugin-structured-data](https://www.npmjs.com/package/@coffeecup_tech/docusaurus-plugin-structured-data)\n🏷️ Version: ${nextRelease.version}\n\n[View on NPM](https://www.npmjs.com/package/@coffeecup_tech/docusaurus-plugin-structured-data/v/${nextRelease.version})",
         "failComment": "❌ This release failed to be published to NPM. Please check the logs above for more details.",
         "labels": [
           "release"
