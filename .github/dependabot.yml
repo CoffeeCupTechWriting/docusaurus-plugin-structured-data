@@ -1,0 +1,36 @@
+version: 2
+updates:
+  # Enable version updates for npm
+  - package-ecosystem: "npm"
+    directory: "/"
+    schedule:
+      interval: "daily"
+      time: "03:00"
+      timezone: "UTC"
+
+    # Labels for PRs
+    labels:
+      - "dependencies"
+      - "npm"
+
+    # Only create PRs for security updates
+    open-pull-requests-limit: 10
+    pull-request-branch-name:
+      separator: "/"
+
+    # Commit message
+    commit-message:
+      prefix: "chore"
+      include: "scope"
+
+    # Auto-merge minor and patch updates
+    allow:
+      - dependency-type: "production"
+      - dependency-type: "development"
+
+    # Rebase if there are conflicts
+    rebase-strategy: "auto"
+    reviewers:
+      - "CoffeeCupTechWriting"
+    assignees:
+      - "CoffeeCupTechWriting"
