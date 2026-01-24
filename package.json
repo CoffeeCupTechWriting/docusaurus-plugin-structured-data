@@ -1,6 +1,6 @@
 {
   "name": "@coffeecup_tech/docusaurus-plugin-structured-data",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "Docusaurus plugin to generate JSON-LD structured data (schema.org) for SEO",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
