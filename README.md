@@ -17,7 +17,7 @@ A Docusaurus plugin that automatically generates JSON-LD structured data (schema
 ## Installation
 
 ```bash
-npm install @coffeecup_tech/docusaurus-plugin-structured-data
+npm install --save @coffeecup_tech/docusaurus-plugin-structured-data
 ```
 
 or with yarn:
