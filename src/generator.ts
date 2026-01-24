@@ -339,7 +339,7 @@ export function run(context: DocsaurusContext, options: PluginOptions) {
   const DOCUSAURUS_CONFIG_URL = context.siteConfig.url;
   logger('info', `Using DOCUSAURUS_CONFIG_URL: ${DOCUSAURUS_CONFIG_URL}`, options.verbose);
 
-  const SAME_AS_DEFAULT_STR = JSON.stringify(options.sameAsDefault || []);
+  const SAME_AS_DEFAULT_STR = (options.sameAsDefault || []).toString();
   logger('info', `Using SAME_AS_DEFAULT: ${SAME_AS_DEFAULT_STR}`, options.verbose);
 
   const content = options.baseSchema ? JSON.stringify(options.baseSchema) : generateDefautContent(context);
